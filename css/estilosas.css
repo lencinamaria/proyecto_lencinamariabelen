@@ -1,13 +1,8 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+ }
 
-header {
-  background-color: #4f4a4a;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 h1 {
   color: bisque;
@@ -112,10 +107,9 @@ ul {
 
 
 img{
-    width: 100%;
-    height: 100%;
-}
-
+    max-width: 100%;
+    height: auto;
+  }
 
 .fotos-productos{
 
@@ -209,11 +203,11 @@ h3{
       justify-content: center;
       align-content: space-around;
   }
-  .footer-contenido{
+ .footer-contenido{
     display: flex;
     flex-direction: column;
 }
-.social-iconos {
+ .social-iconos {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -222,7 +216,7 @@ h3{
     align-items: center;
     background-color: rgb(110, 110, 109);
 }
-.footer-caja-izq {
+ .footer-caja-izq {
     display: flex;
     flex-direction: column;
     width: 90%;
